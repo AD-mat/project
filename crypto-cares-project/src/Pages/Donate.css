@@ -1,0 +1,71 @@
+.mainPage{
+    display: flex;
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color:rgba(226, 82, 24, 0.205);
+}
+
+.left{
+    height: 300px;
+    width: 600px;
+ }
+ 
+   .right{
+    height: 300px;
+    width: 600px;
+  display: inline;
+  text-align:justify;
+   }
+
+.right input{
+    border: none;
+    width: 320px;
+    height: 45px;
+    border-radius: 5px;
+     margin-top: 10px;
+    
+}
+
+ .line1{
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.but{
+    margin-top: 80px;
+    width: 320px;
+    height: 60px;
+    background-color: green;
+}
+
+
+.req{
+    height: 50px;
+    width: 320px;
+    margin-top: 15px;
+    margin-left: 150px;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: white;
+}
+.rec{
+    height: 50px;
+    width: 320px;
+    margin-top: 15px;
+    
+    font-size: large;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.but :hover{
+    color: rgb(241, 84, 11);
+    box-shadow: 2px 2px 2px black;
+} 

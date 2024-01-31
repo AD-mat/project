@@ -1,0 +1,75 @@
+/* General styling */
+
+  /* Text heading */
+  .text1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+    margin-top: 30px;
+  }
+  
+  /* Card list container */
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Individual card items */
+  .card-item {
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    text-align: center;
+  }
+  
+  /* Card item image */
+  .card-item img {
+    width: 100%;
+    height:200px;
+    object-fit: cover; /* Ensure image covers the entire area */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+   
+  }
+  
+  /* Card item headings */
+  .card-item h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .card-item h5 {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:rgb(110, 110, 110);
+  }
+  
+  /* Donate button */
+  .arrow {
+    background-color:#F3752B; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .arrow:hover {
+    background-color: rgb(228, 72, 0); /* Darker blue on hover */
+  }
+  img{
+   margin-left: -5px;
+  }
+  .card-list .card-item:hover {
+    box-shadow: 4px 4px 10px  rgb(228, 72, 0)
+}

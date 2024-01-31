@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+
+
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #f3f3f3;
+  padding-left: 50px;
+}
+
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+
+
+.navbar{
+    background-color: rgb(199, 75, 26);
+    position: fixed;
+}
+nav .logo a{
+    color: white;
+    font-weight: 650;
+    font-size: 35px;
+}
+
+li{
+  color: #fff;
+  font-weight: 600;
+
+ 
+  
+}
+
+ li:hover{
+  color: #f5f6f8;
+  box-shadow: 2px 2px 2px black;
+
+}
+.nav-links li {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-content .logo a{
+  margin-left: -40px;
+ 
+
+}
+.cont{
+  justify-content: space-between;
+ 
+}
+.nav-content .logo img{
+ width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ 
+  margin-left: -120px;
+  
+}

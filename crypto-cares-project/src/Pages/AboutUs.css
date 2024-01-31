@@ -1,0 +1,33 @@
+.h{
+    
+  margin-top: 140px;
+  margin-left: 200px;
+}
+
+
+
+.text{ 
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 50px;
+  width: 750px;
+  font-size: large;
+
+}
+
+.logo img{
+  height: 400px;
+  width: 300px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+.logo{
+  margin-left: 100px;
+
+}
